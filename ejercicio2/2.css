@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contenedor_principal{
+    background-color: #09f;
+    width: 1100px;
+    height: auto;
+}
+
+.boton-eliminar {
+    color: white;
+    cursor: pointer;
+    color: white;
+}
+
+#agregar-tarea{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+}
+
+#titulo {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color:cyan; 
+}
+
+#nueva-tarea {
+    background-color: antiquewhite;
+    color: black;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    border: none;
+}

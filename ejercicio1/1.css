@@ -1,0 +1,45 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: auto;
+    font-size: large;
+}
+
+#div_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    border: none;
+    border-left: 10px solid purple;
+    background-color: gainsboro;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    top: 200px;
+    margin-bottom: 20px;
+}
+
+.contenedor_info {
+    width: 300px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#botonxd {
+    width: 100px;
+}
+
+#boton {
+    color:aliceblue;
+    background-color: purple;
+    position: relative;
+    top: 10px;
+    border: none;
+}
+
+#boton:hover {
+    text-decoration: underline;
+}
